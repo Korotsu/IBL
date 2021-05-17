@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="third_party\src\glad.c">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui_demo.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui_draw.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui_tables.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui_widgets.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui_impl_glfw.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\imgui_impl_opengl3.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="src\demo_dll_wrapper.cpp" />
+    <ClCompile Include="src\gl_helpers.cpp" />
+    <ClCompile Include="third_party\src\stb_perlin.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\tiny_obj_loader.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\src\stb_image.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\mesh_builder.cpp" />
+    <ClCompile Include="src\demo_fbo.cpp" />
+    <ClCompile Include="src\demo_quad.cpp" />
+    <ClCompile Include="src\demo_postprocess.cpp" />
+    <ClCompile Include="src\data.cpp" />
+    <ClCompile Include="src\demo_mipmap.cpp" />
+    <ClCompile Include="src\demo_texture_3d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{7ad97ac2-a8d3-4be3-bb1a-94fe1d2e4d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\demo.hpp" />
+    <ClInclude Include="src\types.hpp" />
+    <ClInclude Include="src\calc.hpp" />
+    <ClInclude Include="src\demo_dll_wrapper.hpp" />
+    <ClInclude Include="src\gl_helpers.hpp" />
+    <ClInclude Include="src\camera.hpp" />
+    <ClInclude Include="src\mesh_builder.hpp" />
+    <ClInclude Include="src\demo_fbo.hpp" />
+    <ClInclude Include="src\demo_quad.hpp" />
+    <ClInclude Include="src\demo_postprocess.hpp" />
+    <ClInclude Include="src\data.hpp" />
+    <ClInclude Include="src\demo_mipmap.hpp" />
+    <ClInclude Include="src\demo_texture_3d.hpp" />
+  </ItemGroup>
+</Project>
